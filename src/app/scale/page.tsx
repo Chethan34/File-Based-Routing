@@ -1,3 +1,11 @@
+import Image from 'next/image';
+import ScaleImage from 'public/images/scale.jpg';
+
+
 export default function ScalePage() {
-    return <h1> Scale Page!</h1>
+    return (
+        <div>
+            <Image src = {ScaleImage} alt ="scale" />
+        </div>
+    )
 }

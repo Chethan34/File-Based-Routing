@@ -1,3 +1,15 @@
+import Image from 'next/image';
+import PerImage from 'public/images/performance.jpg';
+
 export default function PerformancePage() {
-    return <h1> Performance Page!</h1>
+    return (
+    <div>
+        <div>
+        <Image src = {PerImage} alt="performance page"/>
+        </div>
+        
+    </div>
+
+
+    );
 }
